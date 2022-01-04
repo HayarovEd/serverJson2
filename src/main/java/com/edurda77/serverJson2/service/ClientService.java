@@ -1,4 +1,4 @@
-package service;
+package com.edurda77.serverJson2.service;
 
 import java.sql.SQLException;
 import java.util.List;

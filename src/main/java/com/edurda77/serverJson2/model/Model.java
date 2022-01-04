@@ -1,5 +1,4 @@
-package model;
-
+package com.edurda77.serverJson2.model;
 public class Model {
     String name;
     String password;
@@ -9,13 +8,8 @@ public class Model {
     public Model(String name, String password) {
         this.name = name;
         this.password = password;
-
     }
 
-    /*public Model(String name, String jwt) {
-        this.name = name;
-        this.jwt = jwt;
-    }*/
 
     public Model(String jwt) {
         this.jwt = jwt;
